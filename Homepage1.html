@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Blog - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('images/labtop_wallpaper.jpg'); /* Set the background image */
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #9b5a1e;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      color: #fff;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    /* Blog Post */
+    .blog-post {
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for post */
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      width: 90%;
+      color: #000;
+    }
+
+    .post-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .post-author {
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+
+    .post-content {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .book-image {
+        max-width: 100%;
+        height: auto;
+        width: 300px; /* Adjust the width as needed */
+        margin: 60 auto; /* Center the image horizontally */
+        margin-bottom: 10px;
+      }
+      
+
+       /* Blog Post */
+    .blog-post2 {
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for post */
+        border-radius: 8px;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        width: 90%;
+        color: #000;
+      }
+  
+      .post-title2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      .post-author2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+      }
+  
+      .post-content2 {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+  
+      .book-image2 {
+          max-width: 100%;
+          height: auto;
+          width: 300px; /* Adjust the width as needed */
+          margin: 60 auto; /* Center the image horizontally */
+          margin-bottom: 10px;
+        }
+
+    
+      /* Search Form */
+     #search-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+      }
+  
+      #search-form input[type="text"] {
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 250px;
+      }
+  
+      #search-form input[type="submit"] {
+        padding: 6px 20px;
+        background-color: #9b5a1e;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #9b5a1e;
+      text-align: center;
+      color: #fff;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="Homepage1.html">HOME</a>
+    <a href="Aboutme1.html">ABOUT ME</a>
+    <a href="Contact1.html">CONTACT</a>
+  </nav>
+
+  <!-- Search Form -->
+  <form id="search-form" action="#" method="post">
+    <input type="text" name="search" placeholder="Search by Author, ISBN, or Title">
+    <input type="submit" value="Search">
+  </form>
+
+  <!-- Blog Post 1 -->
+  <div class="blog-post">
+  <div class="blog-post">
+    <div class="post-title">Python Crash Course, 3rd Edition: A Hands-On, Project-Based Introduction to Programming 3rd Edition</div>
+    <div class="post-author">Author: Eric Matthes</div>
+    <img class="book-image" src="images/python_crash_course.jpg" alt="Python Crash Course">
+
+    <div class="post-content">
+      <!--content of the blog post -->
+      <p>"Python Crash Course is an excellent book for beginners. It covers everything you need to know to start from scratch and master Python programming from A to Z. The book is incredibly easy to read, making complex concepts accessible to all. For visual learners, the LearningPython YouTube channel complements the book perfectly. By following along with the <a href="https://www.youtube.com/watch?v=fqHZhNwYH90">first episode</a>, you can reinforce your understanding and enhance your learning experience. Highly recommended for anyone eager to dive into Python!" - Amanda Gomez</p>
+      <p>More Info:</p>
+      <ul>
+        <li>ISBN: 978-1718502703</li>
+        <li><a href="https://www.amazon.com/Python-Crash-Course-Eric-Matthes/dp/1718502702">Buy on Amazon</a></li>
+      </ul>
+    </div>
+ <!-- Comment Section -->
+    <div class="comment-section">
+        <h3>Leave a Review</h3>
+        <form>
+        
+        <textarea id="review" name="review" rows="4" required></textarea>
+
+        <input type="submit" value="Submit Review">
+        </form>
+    </div>
+    </div>
+
+<!-- Blog Post 2 -->
+<div class="blog-post2">
+    <div class="blog-post2">
+      <div class="post-title2">Practical SQL, 2nd Edition: A Beginner's Guide to Storytelling with Data 2nd Edition</div>
+      <div class="post-author2">Author: Anthony DeBarros</div>
+      <img class="book-image2" src="images/practical_sql.jpg" alt="Python Crash Course">
+  
+      <div class="post-content2">
+        <!--content of the blog post -->
+        <p>""Practical SQL was an excellent resource for learning SQL. The book provided clear and easy-to-follow instructions on how to download the necessary applications and get started with SQL effortlessly. As an absolute beginner, I found the explanations to be straightforward and the examples were relevant and practical. I particularly appreciated the focus on PostgreSQL and pgAdmin, as it allowed me to apply what I learned to real-world scenarios. I highly recommend Practical SQL to anyone looking to dive into the world of SQL and databases." - Amanda Gomez</p>
+        <p>More Info:</p>
+        <ul>
+          <li>ISBN: 978-1718501065</li>
+          <li><a href="https://www.amazon.com/dp/1718501064?psc=1&ref=ppx_yo2ov_dt_b_product_details">Buy on Amazon</a></li>
+        </ul>
+    </div>
+ <!-- Comment Section -->
+    <div class="comment-section">
+        <h3>Leave a Review</h3>
+        <form>
+        
+        <textarea id="review" name="review" rows="4" required></textarea>
+
+        <input type="submit" value="Submit Review">
+        </form>
+    </div>
+    </div>
+
+  <!-- Add more blog posts here -->
+
+  <!-- Footer -->
+  <footer>
+    All rights reserved by Amanda Gomez &copy; 2023
+  </footer>
+  
+  <script>
+    function performSearch() {
+      // Get the search query from the input field
+      var searchQuery = document.getElementById("search-input").value.toLowerCase();
+
+      // Get all blog posts
+      var blogPosts = document.getElementsByClassName("blog-post");
+
+      // Loop through all blog posts and check if they match the search query
+      for (var i = 0; i < blogPosts.length; i++) {
+        var blogPost = blogPosts[i];
+        var postTitle = blogPost.querySelector(".post-title").innerText.toLowerCase();
+        var postAuthor = blogPost.querySelector(".post-author").innerText.toLowerCase();
+        var postContent = blogPost.querySelector(".post-content").innerText.toLowerCase();
+
+        // If any part of the blog post matches the search query, show the post, otherwise hide it
+        if (postTitle.includes(searchQuery) || postAuthor.includes(searchQuery) || postContent.includes(searchQuery)) {
+          blogPost.style.display = "block";
+        } else {
+          blogPost.style.display = "none";
+        }
+      }
+    }
+  </script>
+</body>
+</html>
