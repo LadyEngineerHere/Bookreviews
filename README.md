@@ -2,10 +2,10 @@
 This is a simple book review website where I share my thoughts and reviews on the books that I have read. The website is designed to provide a platform for book enthusiasts and programmers alike to explore the literature that has influenced my journey as a developer.
 
 #Table of Contents
-Introduction
-Features
-Technologies Used
-Usage
+-Introduction
+-Features
+-Technologies Used
+-Usage
 
 #Introduction
 As a passionate programmer and avid reader, I have always been on the lookout for valuable resources to enhance my skills and knowledge. This website serves as my personal space to share the books that have played a crucial role in shaping my programming journey. Through detailed book reviews, I aim to inspire and guide fellow developers in their quest for continuous learning and improvement.
@@ -18,9 +18,9 @@ Access external links to purchase the recommended books.
 Get updates as I add more books to the collection.
 
 #Technologies Used
-HTML
-CSS
-JavaScript
+-HTML
+-CSS
+-JavaScript
 
 #Usage
 Explore the list of book reviews by clicking on the "HOME" link in the navigation bar.
